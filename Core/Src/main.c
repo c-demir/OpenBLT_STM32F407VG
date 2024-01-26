@@ -52,6 +52,7 @@ static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -97,7 +98,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	AppTask();
+   AppTask();
 
     /* USER CODE BEGIN 3 */
   }

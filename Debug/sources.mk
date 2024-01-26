@@ -26,4 +26,11 @@ App \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
+Loader/ARMCM4_STM32F4/GCC \
+Loader/ARMCM4_STM32F4/IAR \
+Loader/ARMCM4_STM32F4/Keil \
+Loader/ARMCM4_STM32F4 \
+Loader \
+Loader/third_party/fatfs/src \
+Loader/third_party/fatfs/src/option \
 

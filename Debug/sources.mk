@@ -26,6 +26,8 @@ App \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
+Library/FatFS \
+Library/STM32_USB_Device_Library/Core/Src \
 Loader/ARMCM4_STM32F4/GCC \
 Loader/ARMCM4_STM32F4/IAR \
 Loader/ARMCM4_STM32F4/Keil \

@@ -16,6 +16,8 @@ RM := rm -rf
 -include Loader/ARMCM4_STM32F4/GCC/subdir.mk
 -include Loader/ARMCM4_STM32F4/subdir.mk
 -include Loader/subdir.mk
+-include Library/STM32_USB_Device_Library/Core/Src/subdir.mk
+-include Library/FatFS/subdir.mk
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk

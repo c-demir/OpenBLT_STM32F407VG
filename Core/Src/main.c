@@ -98,6 +98,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
    AppTask();
 
     /* USER CODE BEGIN 3 */

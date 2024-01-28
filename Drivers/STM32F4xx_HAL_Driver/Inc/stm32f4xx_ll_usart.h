@@ -2489,10 +2489,10 @@ __STATIC_INLINE void LL_USART_RequestExitMuteMode(USART_TypeDef *USARTx)
 /** @defgroup USART_LL_EF_Init Initialization and de-initialization functions
   * @{
   */
-ErrorStatus LL_USART_DeInit(const USART_TypeDef *USARTx);
-ErrorStatus LL_USART_Init(USART_TypeDef *USARTx, const LL_USART_InitTypeDef *USART_InitStruct);
+ErrorStatus LL_USART_DeInit(USART_TypeDef *USARTx);
+ErrorStatus LL_USART_Init(USART_TypeDef *USARTx,  LL_USART_InitTypeDef *USART_InitStruct);
 void        LL_USART_StructInit(LL_USART_InitTypeDef *USART_InitStruct);
-ErrorStatus LL_USART_ClockInit(USART_TypeDef *USARTx, const LL_USART_ClockInitTypeDef *USART_ClockInitStruct);
+ErrorStatus LL_USART_ClockInit(USART_TypeDef *USARTx,  LL_USART_ClockInitTypeDef *USART_ClockInitStruct);
 void        LL_USART_ClockStructInit(LL_USART_ClockInitTypeDef *USART_ClockInitStruct);
 /**
   * @}

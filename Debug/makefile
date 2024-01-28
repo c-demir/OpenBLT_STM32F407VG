@@ -11,8 +11,6 @@ RM := rm -rf
 -include sources.mk
 -include Loader/third_party/fatfs/src/option/subdir.mk
 -include Loader/third_party/fatfs/src/subdir.mk
--include Loader/ARMCM4_STM32F4/Keil/subdir.mk
--include Loader/ARMCM4_STM32F4/IAR/subdir.mk
 -include Loader/ARMCM4_STM32F4/GCC/subdir.mk
 -include Loader/ARMCM4_STM32F4/subdir.mk
 -include Loader/subdir.mk

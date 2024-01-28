@@ -541,6 +541,7 @@ blt_int8u XcpGetSeedHook(blt_int8u resource, blt_int8u *seed)
   if ((resource & XCP_RES_PGM) != 0)
   {
     seed[0] = 0x55;
+
   }
 
   /* return seed length */
@@ -564,11 +565,11 @@ blt_int8u XcpVerifyKeyHook(blt_int8u resource, blt_int8u *key, blt_int8u len)
   len = len;
 
   /* the example key algorithm in "libseednkey.dll" works as follows:
-   *  - PGM will be unlocked if key = seed - 1
+   *  - PGM will be unlocked if key = seed + 1
    */
 
   /* check key for unlocking ProGraMming resource */
-  if ((resource == XCP_RES_PGM) && (key[0] == (0x55-1)))
+  if ((resource == XCP_RES_PGM) && (key[0] == (0x55+1)))
   {
     /* correct key received for unlocking PGM resource */
     return 1;

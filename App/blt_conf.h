@@ -219,7 +219,7 @@
  * After enabling this feature the hook functions XcpGetSeedHook() and XcpVerifyKeyHook()
  * are called by the bootloader to obtain the seed and to verify the key, respectively.
  */
-#define BOOT_XCP_SEED_KEY_ENABLE        (0)
+#define BOOT_XCP_SEED_KEY_ENABLE        (1)
 
 
 #endif /* BLT_CONF_H */

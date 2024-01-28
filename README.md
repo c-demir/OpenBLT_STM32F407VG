@@ -1,4 +1,4 @@
-# OPEN BLT for STM32F407VG-DISC1
+# OPEN BLT for STM32F407VG-DISC1..
 **This implementation uses ARMCM4_STM32F4_Olimex_STM32P405_CubeIDE as basis to build custom open bootloader for STM32F407VG-DISC1**
 *Please find changes made below*
 1. Seed and key is enabled
